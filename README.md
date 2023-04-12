@@ -67,7 +67,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-git clone git@github.com:SulimanJoya/Leaderboard-list-app.git
+git@github.com:SulimanJoya/Leaderboard-App.git
 
 ```
 
@@ -82,7 +82,7 @@ Open the project using a live server extension that can be found into your code 
 Install npm packages with:
 
 ```
-  cd Leaderboard-list-app
+  cd Leaderboard-App
 ```
 
 ```
