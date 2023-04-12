@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_display_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/display.js */ \"./src/modules/display.js\");\n\r\n\r\n\r\n(0,_modules_display_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\r\n\n\n//# sourceURL=webpack://leaderboard-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_display_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/display.js */ \"./src/modules/display.js\");\n\n\n\n(0,_modules_display_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n\n//# sourceURL=webpack://leaderboard-app/./src/index.js?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst arr = [\r\n  { Name: 100 },\r\n  { Name: 20 },\r\n  { Name: 50 },\r\n  { Name: 78 },\r\n  { Name: 125 },\r\n  { Name: 77 },\r\n  { Name: 42 },\r\n];\r\n\r\nconst render = () => {\r\n  const score = document.querySelector('#score-record');\r\n  let item = '';\r\n  for (let i = 0; i < arr.length; i += 1) {\r\n    item += `<li>Name: ${arr[i].Name}</li>`;\r\n  }\r\n  score.innerHTML = item;\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (render);\r\n\n\n//# sourceURL=webpack://leaderboard-app/./src/modules/display.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst arr = [\n  { Name: 100 },\n  { Name: 20 },\n  { Name: 50 },\n  { Name: 78 },\n  { Name: 125 },\n  { Name: 77 },\n  { Name: 42 },\n];\n\nconst render = () => {\n  const score = document.querySelector('#score-record');\n  let item = '';\n  for (let i = 0; i < arr.length; i += 1) {\n    item += `<li>Name: ${arr[i].Name}</li>`;\n  }\n  score.innerHTML = item;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (render);\n\n\n//# sourceURL=webpack://leaderboard-app/./src/modules/display.js?");
 
 /***/ })
 
