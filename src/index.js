@@ -7,7 +7,7 @@ const form = document.getElementById('form');
 
 refresh.addEventListener('click', fetchScores);
 
-form.addEventListener('submit', async e => {
+form.addEventListener('submit', async (e) => {
   e.preventDefault();
   const nameInput = document.getElementById('name').value;
   const scoreInput = document.getElementById('score').value;
